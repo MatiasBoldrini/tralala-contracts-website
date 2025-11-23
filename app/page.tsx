@@ -109,7 +109,7 @@ export default function Home() {
 
       <main className="flex-grow pt-16">
         {/* Hero Section */}
-        <section className="relative pt-8 pb-16 lg:pt-12 lg:pb-20 border-b-4 border-black overflow-hidden">
+        <section className="relative pt-8 pb-16 lg:pt-12 lg:pb-20 border-b-4 border-black overflow-hidden" style={{ paddingBottom: "200px", paddingTop: "110px" }}  >
           {/* Abstract Background Grid */}
           <div
             className="absolute inset-0 z-0 opacity-10"
