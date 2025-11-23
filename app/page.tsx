@@ -209,19 +209,7 @@ export default function Home() {
         </section>
 
         {/* Marquee Section */}
-        <section className="border-b-4 border-black bg-black py-6 overflow-hidden">
-          <motion.div
-            animate={{ x: [0, -1000] }}
-            transition={{ repeat: Number.POSITIVE_INFINITY, duration: 20, ease: "linear" }}
-            className="flex gap-12 text-xl font-black uppercase tracking-widest font-sans"
-          >
-            {[...Array(10)].map((_, i) => (
-              <span key={i} className="flex items-center gap-4">
-                <Zap className="fill-white" /> Tralala Contracts <span className="text-white">WEB3 FOR EVERYONE</span>
-              </span>
-            ))}
-          </motion.div>
-        </section>
+
 
         {/* Features Grid */}
         <section className="py-16 px-4 bg-white border-b-4 border-black">
