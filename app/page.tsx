@@ -64,13 +64,16 @@ export default function Home() {
                   {item}
                 </Link>
               ))}
-              <motion.button
+              <motion.a
+                href="https://x.com/pescalate_"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, boxShadow: "4px 4px 0px 0px #000000" }}
                 whileTap={{ scale: 0.95, boxShadow: "0px 0px 0px 0px #000000" }}
                 className="bg-accent px-6 py-2 border-3 border-black font-bold text-black shadow-[4px_4px_0px_0px_#000000] font-body"
               >
                 CONTACT
-              </motion.button>
+              </motion.a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -168,13 +171,16 @@ export default function Home() {
                     DEPLOY NOW{" "}
                     <ArrowRight className="group-hover:translate-x-1 transition-transform" strokeWidth={3} />
                   </Link>
-                  <motion.button
+                  <motion.a
+                    href="https://x.com/pescalate_"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={hoverEffect}
                     whileTap={tapEffect}
                     className="bg-white text-black px-8 py-4 text-lg font-bold border-4 border-black shadow-[6px_6px_0px_0px_#000000] font-sans"
                   >
                     VIEW DEMO
-                  </motion.button>
+                  </motion.a>
                 </motion.div>
               </motion.div>
 
